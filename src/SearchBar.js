@@ -11,7 +11,7 @@ function SearchBar(props){
             <h2>Find Current Weather Conditions</h2>
             <form>
                 <input type="text"/>
-                <button>Search</button>
+                <button>Get Forecast</button>
             </form> 
             {/* <button>Get Forecast</button> */}
         </div>
