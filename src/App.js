@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <SearchBar getCityWeather={getWeatherInfo}></SearchBar>
       <div>
-        <p>{parseInt((currentWeather.main.temp - 273) * 9/5 + 32)}</p>
+        {/* <p>{currentWeather.main.temp}</p> */}
       </div>
     </div>
   );
