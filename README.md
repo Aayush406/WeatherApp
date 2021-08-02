@@ -20,6 +20,4 @@ You will need to acquire your own api key from https://openweathermap.org and re
 
 ### Future Changes
 
-Future updates will be centered around adding 7-day forecast functionality below the current weather similar to other weather apps available.
-
-Highs and Lows will also be added
+Future updates will be centered around adding current Highs and Lows as well as 7-day forecast functionality below the current weather similar to other weather apps.
