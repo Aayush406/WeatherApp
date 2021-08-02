@@ -2,7 +2,7 @@
 
 This app was created using React JS, HTML, and CSS.
 
-Visit this url to utilize the application:
+Visit this url to utilize the application: https://current-forecast.herokuapp.com/
 
 This is a weather app that is designed to return the current weather of the location that is entered
 
