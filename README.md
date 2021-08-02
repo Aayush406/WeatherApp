@@ -8,7 +8,7 @@ This is a weather app that is designed to return the current weather of the loca
 
 If the location does not exist or is entered incorrectly, then the website will allow the user to enter a new city.
 
-The location (City, Country), Weather, and Temperature are displayed
+The Location (City, Country), Weather, and Temperature are displayed
 
 ### yarn start
 
