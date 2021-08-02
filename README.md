@@ -14,5 +14,5 @@ The location (City, Country), Weather, and Temperature are displayed
 
 Runs the app in development mode.
 Type this into the console to utilize the app in development mode on your local server
-You will need to acquire your own api key from openweathermap.org and replace it with api key reference in App.js
+You will need to acquire your own api key from https://openweathermap.org and replace it with api key reference in App.js
 
