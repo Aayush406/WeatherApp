@@ -13,10 +13,13 @@ The Location (City, Country), Weather, and Temperature are displayed
 ### yarn start
 
 Runs the app in development mode.
+
 Type this into the console to utilize the app in development mode on your local server
+
 You will need to acquire your own api key from https://openweathermap.org and replace it with api key reference in App.js
 
 ### Future Changes
 
-Future updates will be centered around adding 7-day forecast functionality below the current weather similar to other weather apps available
+Future updates will be centered around adding 7-day forecast functionality below the current weather similar to other weather apps available.
+
 Highs and Lows will also be added
