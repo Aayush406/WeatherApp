@@ -16,7 +16,7 @@ import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 const apiInfo = {
   key: `${process.env.REACT_APP_WEATHER_API_KEY}`,
-  base: "http://api.openweathermap.org/data/2.5/weather?"
+  base: "https://api.openweathermap.org/data/2.5/weather?"
 }
 
 const icons = [faSun, faMoon, faCloudSun, faCloudMoon, faCloud, faCloudShowersHeavy, faCloudSunRain, faCloudMoonRain, faBolt, faSnowflake, faSmog]; // Array of icons to use based on weather
