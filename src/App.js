@@ -37,8 +37,7 @@ function App() {
       const response = await fetch(apiInfo.base + "q=" + city + "&appid=" + apiInfo.key);
 
       if (response.status === 200) {
-        const currWeather = await response.json() //Converts the api call to json on success
-
+        const currWeather = await response.json(); //Converts the api call to json on success
 
         if (currWeather.weather[0].icon === "01d"){ //Checks to see what the icon code is to decide what icon to use in icons array
           num = 0;
