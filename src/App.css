@@ -51,6 +51,47 @@ body{
     font-size: 4vw;
     text-align: center;
 }
+
+.lowerTemp
+{
+    margin-top: 20px;
+    margin-left: 800px; 
+    color:white;
+    /* font-size: 10px; */
+    font-size: 2vw;
+    font-weight: 400;
+    text-shadow: 3px 3px black;
+    float: left;
+}
+
+.feelsLike
+{
+    margin-top: 20px;
+    margin-left: 272px; 
+    color:white;
+    /* font-size: 10px; */
+    font-size: 2vw;
+    font-weight: 400;
+    text-shadow: 3px 3px black;
+    float: left;
+}
+
+.feelsTemp{
+    margin-left: 55px;
+}
+
+.higherTemp
+{
+    margin-top: 20px;
+    margin-left: 272px; 
+    color:white;
+    /* font-size: 10px; */
+    font-size: 2vw;
+    font-weight: 400;
+    text-shadow: 3px 3px black;
+    float: left;
+    
+}
 /* .App{
     min-height: 1000px;
     width: 1200px;

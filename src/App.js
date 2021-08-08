@@ -38,6 +38,7 @@ function App() {
 
       if (response.status === 200) {
         const currWeather = await response.json(); //Converts the api call to json on success
+        console.log(currWeather);
 
         if (currWeather.weather[0].icon === "01d"){ //Checks to see what the icon code is to decide what icon to use in icons array
           num = 0;
@@ -121,6 +122,20 @@ function App() {
           </div>
           <div className="temperature">
             <div>{parseInt(9/5 * (currentWeather.main.temp - 273) + 32)}°F</div>
+          </div>
+          <div className="Wrapper">
+            <div className="lowerTemp">
+              <div>Low</div>
+              <div>{parseInt(9/5 * (currentWeather.main.temp_min - 273) + 32)}°F</div>
+            </div>
+            <div className="feelsLike">
+              <div>Feels Like</div>
+              <div className="feelsTemp">{parseInt(9/5 * (currentWeather.main.feels_like - 273) + 32)}°F</div>
+            </div>
+            <div className="higherTemp">
+              <div>High</div>
+              <div>{parseInt(9/5 * (currentWeather.main.temp_max - 273) + 32)}°F</div>
+            </div>
           </div>
 
       </div>
