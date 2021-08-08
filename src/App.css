@@ -4,8 +4,7 @@ html{
     margin: 0px;
 }
 body{
-    /* background-color: plum; */
-    background: url("/src/10791689.jpg") ;
+    background: url("/src/images.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
